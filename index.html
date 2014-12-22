@@ -1,63 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<link href="CSS/home.css" type="text/css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif'
-	rel='stylesheet' type='text/css'>
-<title>Gurukul</title>
+	<title>Gurukul</title>
+	<meta charset="ISO-8859-1">
+	<link href="css/home.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif'	rel='stylesheet' type='text/css'>
 </head>
-<body style="background-image: url('background.jpg');">
-	<div class="header">
-		<img alt="Gurukul" src="images/logo.jpg">
-		<div class="title">Your home to sharp your axe</div>
-		<div class="login">
-			<a href="#">Login</a>
+<body>
+	<div class = "container">
+		<div class="row">
+			<div class="col-md-2">
+				<img class="img-responsive" alt="Gurukul" src="images/logo.jpg">
+			</div>
+			<div class="col-md-7">
+				<h1>Your home to sharp your axe</h1>
+			</div>
+			<div class="col-md-3">
+				<a href="#">Login</a>
+			</div>
 		</div>
-	</div>
-	<div class="clearspace"></div>
-	<div class="menu">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Profile</a></li>
-			<li><a href="#">Dashboard</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
-	</div>
-	<div class="clearspace"></div>
-	<div class="sePanel">
-		<div class="courselist">
+		<div class="row">
 			<ul>
-				<li>Course1</li>
-				<li>Course2</li>
-				<li>Course3</li>
-				<li>Course4</li>
-				<li>Course5</li>
-				<li>Course6</li>
-			
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
 		</div>
-		<div class="QPalette">
-		<br />
-		<br />
-		<br />
-			<div class="Question">What is the deadline of the project?</div>
-			<br /> 
-			<div class="option">
-			<input type="radio" value="19-Nov-2014" id="1" />19-Nov-2014<br /> 
-			<input type="radio" value="29-Nov-2014" id="1" />29-Nov-2014<br /> 
-			<input type="radio" value="9-Dec-2014" id="1" /> 9-Dec-2014<br /> 
-			<input type="radio" value="19-Dec-2014" id="1" />19-Dec-2014
+		<div class="row">
+			<div class="col-md-4 ">
+				<ul>
+					<li>Course1</li>
+					<li>Course2</li>
+					<li>Course3</li>
+					<li>Course4</li>
+					<li>Course5</li>
+					<li>Course6</li>
+				
+				</ul>
+			</div>
+			<div class="col-md-8">
+				<div class="row">What is the deadline of the project?</div>
+				<div class="row">
+					<input type="radio" value="19-Nov-2014" id="1" />19-Nov-2014<br /> 
+					<input type="radio" value="29-Nov-2014" id="1" />29-Nov-2014<br /> 
+					<input type="radio" value="9-Dec-2014" id="1" /> 9-Dec-2014<br /> 
+					<input type="radio" value="19-Dec-2014" id="1" />19-Dec-2014
 				</div>
+			</div>
 		</div>
-	</div>
-	<div class="clearspace"></div>
-	<div class="hint">
-	
-		<div class="title">You can take a help but attempt first:-)</div>
-		<div class="login">
-			<a href="#">Login</a>
+		<div class="row">		
+			<div class="col-md-12">You can take a help but attempt first:-)</div>
 		</div>
 	</div>
 </body>
